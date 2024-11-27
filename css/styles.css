@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Open Sans', serif;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'Open Sans', serif;
+    color: #0056b3;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-grow: 3;
+    flex: 1;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card a {
+    display: block;
+    padding: 20px;
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.card a:hover {
+    color: #013a77;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer a {
+    color: #E8E8E8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #96C8FF;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:focus {
+    outline: 3px dashed #0056b3;
+    outline-offset: 2px;
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .card a {
+        font-size: 1em;
+    }
+}

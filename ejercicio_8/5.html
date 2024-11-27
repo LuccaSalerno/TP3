@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+    <script>
+        let numero_random = Math.floor(Math.random() * 11)
+        let numero_usuario = -1
+        
+        while (numero_random != numero_usuario){
+            numero_usuario = Number(prompt("Ingrese un numero:"))
+            if (numero_usuario == numero_random){
+                alert("Adivinaste!")
+            } else {
+                if (numero_usuario < numero_random){
+                    alert("El numero es mayor")
+                } else {
+                    alert("El numero es menor")
+                }
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+    
+</body>
+</html>

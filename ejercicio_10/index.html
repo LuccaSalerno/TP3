@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Implementación de Plugins con jQuery</title>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css"/>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Plugins</h1>
+  <section class="slider">
+    <h2>Slider</h2>
+    <div class="image-slider">
+      <div><img src="imgs/Inter.jpeg" alt="Camiseta del inter"></div>
+      <div><img src="imgs/Liverpool.jpeg" alt="Camiseta del Liverpool"></div>
+      <div><img src="imgs/Real_madrid.jpeg" alt="Camiseta del Real Madrid"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>WhatsApp</h2>
+    <a href="https://wa.me/1234567890?text=¡Hola!%20Me%20Gusta%20esta%20materia." target="_blank" class="whatsapp-button">
+      <span>Chat en WhatsApp</span>
+    </a>
+  </section>
+  
+  <section>
+    <h2>Lightbox</h2>
+    <a href="imgs/perro.webp" data-lightbox="gallery"><img src="imgs/perro.webp" alt="Perro"></a>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('.image-slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+
+      lightbox.option({
+        'resizeDuration': 400,
+        'wrapAround': true
+      });
+    });
+  </script>
+
+</body>
+</html>

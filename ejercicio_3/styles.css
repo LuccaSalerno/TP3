@@ -1,0 +1,69 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #0070C0;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #E36C0A;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5
+}
+
+em {
+    font-style: normal;
+}
+
+.rojo {
+    color: #FF3737;
+}
+
+.rojo em {
+    color: #A50021;
+}
+
+.verde {
+    color:#92D050
+}
+
+.verde em {
+    color: #7A9542;
+}
+
+.marron {
+    color: #D99594;
+}
+
+.marron em{
+    color: #993F3D;
+}
+
+.violeta {
+    color: #B9A9CC;
+}
+
+.violeta em {
+    color: #5F497A;
+}
+
+.rosa {
+    color: #FF45D0;
+}
+
+.rosa em {
+    color: #CC3399;
+}

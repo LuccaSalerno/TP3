@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+    <script>
+        let numeros = []
+        while (numeros.length < 5) {
+            let numero = Number(prompt("Ingrese un numero:"))
+            numeros.push(numero)
+        }
+        let maximo = Math.max(...numeros)
+        let minimo = Math.min(...numeros)
+    </script>
+</head>
+<body>
+    <script>
+        alert("El numero maximo es: " + maximo + " y el minimo es: " + minimo)
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+#ejercicio1 {
+    background-color: lightblue;
+    margin: 20px;
+    padding: 15px;
+}
+
+#ejercicio2 {
+    background-image:  url(../img/images.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ejercicio3 {
+    border: solid 2px red;
+    border-radius: 10px;
+}
+
+#ejercicio4 p {
+    font-weight: bold;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+#ejercicio5 div{
+    background-color: yellow;
+    text-align: center;
+}
+
+#ejercicio6 {
+    border: double 5px violet;
+    background-color: gold;
+    margin: 40px;
+}
+
+#ejercicio7{
+    background-image: url(../img/images.jpeg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#ejercicio8 {
+    background-image:  url(../img/images.jpeg);
+    background-repeat: repeat-y;
+    background-size: 50%;
+}
+
+#ejercicio9 {
+    background-color: green;
+    background-image: url(../img/images.jpeg);
+    background-position: right;
+    background-size: 20% ;
+    background-repeat: repeat-y;
+}
+
+#ejercicio9 .btn {
+    background-color: #011830;
+    margin: 5px 0;
+}
+
+#ejercicio10 {
+    width: 50%;
+    border: dotted green 3px;
+    padding: 25px;
+}
